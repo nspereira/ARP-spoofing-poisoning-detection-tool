@@ -5,10 +5,15 @@ ARP Spoofing Detector is a sniffer capable of detecting ARP cache Spoofing/Poiso
 
 <h2>Features</h2>
 
+- Add attacker MAC address to iptables
+- Add attacker MAC address to a blacklist text file
+- Log all ARP attacks detected in the log file
+- Send system notification once attack occurs
+
 
 <h2>HOW TO RUN</h2>
 
-First make sure you have Root access to the machine you intend to run this script and simply run:
+simply run:
 
 `sudo python2.7 arpspoof_detector.py`
 
